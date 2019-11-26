@@ -14,15 +14,16 @@
     <form class="main-form">
         <img src="img/close.png" alt="close" class="main-form__icon">
         <h2 class="main-form__headline">Регистрация</h2>
-        <input type="text" placeholder="ФИО*" class="main-form__input" required>
-        <input type="text" placeholder="E-mail(Ваш логин)*" class="main-form__input" required>
-        <input type="number" placeholder="Телефон*" class="main-form__input" required>
-        <input type="text" placeholder="Страна*" class="main-form__input" required>
-        <input type="text" placeholder="Дата рождения" class="main-form__input">
-        <input type="password" placeholder="Пароль*" minlength="3" maxlength="10" class="main-form__input" required>
-        <input type="password" placeholder="Повторите пароль*"minlength="3" maxlength="10" class="main-form__input" required>
+        <input type="text" placeholder="ФИО*" id="name" class="main-form__input">
+        <input type="email" placeholder="E-mail(Ваш логин)*" id="email" class="main-form__input">
+        <input type="number" placeholder="Телефон*" id="number" class="main-form__input">
+        <input type="text" placeholder="Страна*" id="country" class="main-form__input">
+        <input type="text" placeholder="Дата рождения" id="birth" class="main-form__input">
+        <input type="password" placeholder="Пароль*" id="password" class="main-form__input">
+        <input type="password" placeholder="Повторите пароль*" id="repeat-password" class="main-form__input">
         <button type="submit" class="main-form__btn">Зарегистрироваться</button>
     </form>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
