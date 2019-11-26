@@ -38,6 +38,7 @@
     font-size: 20px;
     line-height: 24px;
     border: 1px solid #2f4feb;
+    outline: none;
 }
 
 .main-form__input:last-of-type {
@@ -55,6 +56,14 @@
     border: none;
     border-radius: 28px;
     cursor: pointer;
+}
+
+.main-form__input:valid {
+    outline: 1px solid #06aa06;
+}
+
+.main-form__input:invalid {
+    outline: 1px solid #c90711;
 }
 
 @media screen and (max-width: 992px) {

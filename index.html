@@ -15,12 +15,12 @@
         <img src="img/close.png" alt="close" class="main-form__icon">
         <h2 class="main-form__headline">Регистрация</h2>
         <input type="text" placeholder="ФИО*" class="main-form__input" required>
-        <input type="email" placeholder="E-mail(Ваш логин)*" class="main-form__input" required>
+        <input type="text" placeholder="E-mail(Ваш логин)*" class="main-form__input" required>
         <input type="number" placeholder="Телефон*" class="main-form__input" required>
         <input type="text" placeholder="Страна*" class="main-form__input" required>
         <input type="text" placeholder="Дата рождения" class="main-form__input">
-        <input type="password" placeholder="Пароль*" class="main-form__input">
-        <input type="password" placeholder="Повторите пароль*" class="main-form__input">
+        <input type="password" placeholder="Пароль*" minlength="3" maxlength="10" class="main-form__input" required>
+        <input type="password" placeholder="Повторите пароль*"minlength="3" maxlength="10" class="main-form__input" required>
         <button type="submit" class="main-form__btn">Зарегистрироваться</button>
     </form>
 </body>
