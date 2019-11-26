@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    $('#number').mask('+38 (999) 99-99-999');
+    $('#birth').mask('99.99.9999');
+});
+
 const refs = {
     form: document.querySelector('.main-form'),
     nameInput: document.querySelector('#name'),
@@ -44,7 +49,7 @@ function onSubmit(e) {
         return;
     }
 
-    return true;
+    return alert('Все поля валидны');
 }
 
 refs.form.addEventListener('submit', onSubmit);
